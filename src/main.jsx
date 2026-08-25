@@ -60,7 +60,7 @@ function App() {
         <div className="hero-copy">
           <div className="avatar-wrap">
             <div className="avatar">
-              <img src="/my-portfolio/profile.jpg"/>
+              <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Aditya Suruse" />
              </div>
           </div>
           <p className="eyebrow">APPLICATION SUPPORT • JAVA FULL STACK</p>
