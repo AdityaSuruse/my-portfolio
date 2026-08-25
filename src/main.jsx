@@ -60,10 +60,8 @@ function App() {
         <div className="hero-copy">
           <div className="avatar-wrap">
             <div className="avatar">
-              {image ? <img src={image} alt="Aditya Suruse"/> : <span>AS</span>}
-            </div>
-            <button className="image-btn" onClick={() => fileRef.current?.click()}><Upload size={15}/> Add Photo</button>
-            <input ref={fileRef} type="file" accept="image/*" hidden onChange={uploadImage}/>
+              <img src="/my-portfolio/profile.jpg" alt="Aditya Suruse" />
+             </div>
           </div>
           <p className="eyebrow">APPLICATION SUPPORT • JAVA FULL STACK</p>
           <h1>Aditya <span>Suruse</span></h1>
